@@ -6,7 +6,7 @@ from Counting_engine import Counting_engine
 def positive_int(value):
     try:
         int_value = int(value)
-        print('Hello GitHub')
+    
         if int_value < 1:
             raise argparse.ArgumentTypeError(f'{value} is not >= 1')
         return int_value
