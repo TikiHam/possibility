@@ -1,6 +1,6 @@
 import sys
 import argparse
-from pos_class import Counting_engine
+from Counting_engine import Counting_engine
 
 
 def positive_int(value):
